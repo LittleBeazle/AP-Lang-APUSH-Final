@@ -1,7 +1,9 @@
-* {
-  color: Cyan;
-  background-color: Maroon;
-  font-size: 18px;
-  font-family: Georgia;
+body {
+  background-color: Moccasin;
+}
+
+.main-header {
+  color: DarkSlateGray;
+  font-family: Helvetica;
   text-align: center;
 }
