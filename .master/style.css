@@ -1,9 +1,10 @@
 body {
-  background-color: White;
+  background-color: Moccasin;
+  font-family: sans-serif;
 }
 
 .main-header {
-  color: Black;
+  color: DarkSlateGrey;
   font-family: "Montserrat";
   text-align: center;
 }
