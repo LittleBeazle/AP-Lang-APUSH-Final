@@ -1,13 +1,18 @@
 body {
-  background-color: Moccasin;
+  background-color: White;
 }
 
 .main-header {
-  color: DarkSlateGray;
-  font-family: Helvetica;
+  color: Black;
+  font-family: "Montserrat";
   text-align: center;
 }
 
-.main-img-apush {
+.main-link-apush {
   padding-bottom: 50px;
+  background-image: url(/Users/bosticZachary/AP-Lang-APUSH-Final/.master/.resources/history.jpg);
+}
+
+.main-link-lang {
+  background-image: url(/Users/bosticZachary/AP-Lang-APUSH-Final/.master/.resources/ap-lang-header.jpg);
 }
