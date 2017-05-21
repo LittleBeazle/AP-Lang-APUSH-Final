@@ -1,19 +1,111 @@
 body {
-  background-color: Moccasin;
-  font-family: sans-serif;
-}
-
-.main-header {
-  color: DarkSlateGrey;
-  font-family: "Montserrat";
+  padding: 0;
+  margin: 0;
+  background-color: #1E1E24;
   text-align: center;
 }
 
-.main-link-apush {
-  padding-bottom: 50px;
-  background-image: url(/Users/bosticZachary/AP-Lang-APUSH-Final/.master/.resources/history.jpg);
+.header {
+  background-image: url("/Users/bosticZachary/AP-Lang-APUSH-Final/.master/.resources/ap-lang-header.jpg");
+  height: 400px;
+  background-position: bottom center;
 }
 
-.main-link-lang {
-  background-image: url(/Users/bosticZachary/AP-Lang-APUSH-Final/.master/.resources/ap-lang-header.jpg);
+.header h3 {
+  height: 400px;
+  background-position: bottom center;
+  color: #FFF;
+  text-align: center;
+}
+
+h1 {
+  color: #FFF;
+  font-family: 'Ruda', sans-serif;
+  font-size: 70px;
+  font-weight: 900;
+  margin: 0;
+  padding-top: 120px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #FFF;
+  font-family: 'Catamaran', sans-serif;
+  margin: 0;
+  text-align: left;
+}
+
+h3 {
+  color: #D7263D;
+  font-family: 'Ruda', sans-serif;
+  font-size: 32px;
+  margin: 0;
+  position: relative;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: 'Pontano Sans', sans-serif;
+  margin: 0;
+  text-align: left;
+}
+
+.paper {
+  margin: 60px auto;
+  padding: 10px 0px 0px 0px;
+  width: 90%;
+  border: 3px solid #FFF;
+  border-radius: 7px;
+
+}
+
+.paper-link {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.paper-desc {
+  display: inline-block;
+  width: 70%;
+}
+
+.open {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.photography a {
+  color: #FFF;
+  background-color: #D7263D;
+  display: block;
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 32px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+a {
+  background-color: #D7263D;
+  color: #FFF;
+  display: block;
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 16px;
+  padding: 14px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+ul {
+  padding: 0;
+  margin: 10px 0px;
+}
+
+li {
+  margin: 0;
+  list-style: none;
 }
