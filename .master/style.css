@@ -5,10 +5,21 @@ body {
   text-align: center;
 }
 
-.header {
+.lang {
   background-image: url("/Users/bosticZachary/AP-Lang-APUSH-Final/.master/.resources/ap-lang-header.jpg");
   height: 400px;
   background-position: bottom center;
+}
+
+.apush {
+  background-image: url("/Users/bosticZachary/AP-Lang-APUSH-Final/.master/.resources/history.jpg");
+  height: 400px;
+  background-position: bottom center;
+}
+
+.header {
+  background-color: #D7263D;
+  color: #FFF;
 }
 
 .header h3 {
@@ -16,6 +27,11 @@ body {
   background-position: bottom center;
   color: #FFF;
   text-align: center;
+}
+
+.main {
+  padding-top: 100px;
+  height: 700px;
 }
 
 h1 {
@@ -53,18 +69,13 @@ p {
   text-align: left;
 }
 
-.paper {
+.box-entry {
   margin: 60px auto;
   padding: 10px 0px 0px 0px;
   width: 90%;
   border: 3px solid #FFF;
   border-radius: 7px;
 
-}
-
-.paper-link {
-  display: inline-block;
-  margin-top: 20px;
 }
 
 .paper-desc {
@@ -88,6 +99,27 @@ p {
   text-transform: uppercase;
 }
 
+.go-home a {
+  background-color: #1E1E24;
+  color: #FFF;
+  font-size: 14px;
+  font-family: 'Catamaran', sans-serif;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.nav-bar li a {
+  color: #FFF;
+  background-color: #1E1E24;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 24px;
+  margin: 10px 30px;
+  padding: 0;
+  padding-left: 130px;
+  display: inline;
+  list-style: none;
+}
+
 a {
   background-color: #D7263D;
   color: #FFF;
@@ -106,6 +138,11 @@ ul {
 }
 
 li {
-  margin: 0;
+  color: #FFF;
+  background-color: #1E1E24;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 24px;
+  margin: 0px 40px;
+  display: inline;
   list-style: none;
 }
