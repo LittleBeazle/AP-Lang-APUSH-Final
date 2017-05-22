@@ -69,6 +69,10 @@ p {
   text-align: left;
 }
 
+.photo {
+  width: 100px;
+}
+
 .box-entry {
   margin: 60px auto;
   padding: 10px 0px 0px 0px;
