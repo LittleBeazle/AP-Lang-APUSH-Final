@@ -9,12 +9,14 @@ body {
   background-image: url(".master/.resources/ap-lang-header.jpg");
   height: 400px;
   background-position: bottom center;
+  background-repeat: no-repeat;
 }
 
 .apush {
   background-image: url(".master/.resources/history.jpg");
   height: 400px;
   background-position: bottom center;
+  background-repeat: no-repeat;
 }
 
 .header {
