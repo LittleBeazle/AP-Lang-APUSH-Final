@@ -81,6 +81,18 @@ p {
   margin: 20px;
 }
 
+.apush-image {
+  padding: 15px;
+  width: 100%;
+}
+
+.apush-image caption {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: 'Pontano Sans', sans-serif;
+  margin: 15px;
+  text-align: center;
+}
+
 .apush-text p {
   font-size: 18px;
 }
