@@ -75,7 +75,14 @@ p {
   width: 90%;
   border: 3px solid #FFF;
   border-radius: 7px;
+}
 
+.apush-text h3, p {
+  margin: 20px;
+}
+
+.apush-text p {
+  font-size: 18px;
 }
 
 #question h3 {
