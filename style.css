@@ -6,13 +6,13 @@ body {
 }
 
 .lang {
-  background-image: url("/Users/bosticZachary/AP-Lang-APUSH-Final/.master/.resources/ap-lang-header.jpg");
+  background-image: url(".master/.resources/ap-lang-header.jpg");
   height: 400px;
   background-position: bottom center;
 }
 
 .apush {
-  background-image: url("/Users/bosticZachary/AP-Lang-APUSH-Final/.master/.resources/history.jpg");
+  background-image: url(".master/.resources/history.jpg");
   height: 400px;
   background-position: bottom center;
 }
@@ -123,6 +123,7 @@ p {
 }
 
 .photography a {
+  width: 10%;
   color: #FFF;
   background-color: #D7263D;
   display: block;
